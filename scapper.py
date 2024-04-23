@@ -6,21 +6,32 @@ import time
 
 def scrapJobsTitle(driver, titleXpath, nextButtonXpath, totalJobsPerPage):
     jobsTitle = []
+    with open('job-title.txt', 'w') as file:  # Open file once outside the loop
+        for i in range(4):
+            print(f"Scrapping Page {i + 1}")
+            
+            # Ensure that the page has loaded and elements are present
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_all_elements_located((By.XPATH, titleXpath))
+            )
+            
+            # Re-fetch products to avoid StaleElementReferenceException
+            products = driver.find_elements(By.XPATH, titleXpath)
+            for product in products:
+                title = product.text
+                print(f"Product Title = {title}\n")
+                jobsTitle.append(title)
+                file.write(f'Job Title = {title}\n')  # Write each title
 
-    # Correct the XPath format and usage
-    for i in range(totalJobsPerPage):
-        print(f"Scrapping Page {i + 1}")
-        # Use the correct method to find elements by XPath
-        products = driver.find_elements(By.XPATH, titleXpath)
-        # print(products)
-        for product in products:
-            print(f"Product Title = {product.text}\n")
-            jobsTitle.append(product.text)  # Store job title text
-        
-        # Find the next button and click it
-        # next_button = driver.find_element(By.XPATH, nextButtonXpath)
-        # next_button.click()
-        time.sleep(3)  # Wait for the next page to load
+            # Handle next button
+            try:
+                next_button = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH, nextButtonXpath)))
+                driver.execute_script("arguments[0].click();", next_button)
+                time.sleep(1)  # Brief pause to let the page start loading
+            except Exception as e:
+                print(f"Failed to click next button on page {i+1}: {str(e)}")
+                break  # Exit loop if can't click next
 
     return jobsTitle
 
@@ -45,8 +56,12 @@ try:
     search_button.click()
     time.sleep(5)
     
-    
-    job_titles = scrapJobsTitle(driver, '//*[@data-automation-id="jobTitle"]', '//*[@data-uxi-widget-type="stepToNextButton"]', 20)
+    titleXpath = '//*[@data-automation-id="jobTitle"]'  # Update this XPath based on actual job title elements
+    nextButtonXpath = "//button[@data-uxi-widget-type='stepToNextButton']"  # Update this if needed
+
+    # Scrape job titles
+    totalJobsPerPage = 20  # Adjust as needed based on the pagination of the site
+    job_titles = scrapJobsTitle(driver, titleXpath, nextButtonXpath, totalJobsPerPage)
     print(job_titles)
 finally:
     driver.quit()

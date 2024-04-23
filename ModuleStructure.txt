@@ -1,0 +1,53 @@
+JobApplicationSystem/
+│
+├── module1/                     # Module 1 - Job Data Management
+│   ├── jobs/
+│   │   ├── __init__.py
+│   │   ├── base_job.py
+│   │   └── specialized_jobs/
+│   │       ├── __init__.py
+│   │       ├── workday_job.py
+│   │       └── success_factors_job.py
+│   │
+│   ├── scrapers/
+│   │   ├── __init__.py
+│   │   ├── base_scraper.py
+│   │   └── portal_scrapers/
+│   │       ├── __init__.py
+│   │       ├── workday_scraper.py
+│   │       └── success_factors_scraper.py
+│   │
+    │├── tests/
+│   ├── test_jobs.py
+│   ├── test_scrapers.py
+│   └── test_utils.py
+
+└── pytest.ini (optional, for pytest configuration)
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+    
+│
+├── module2/                     # Future Module 2 - Database Design 
+│   ├── __init__.py
+│   ├── ...
+│   └── ...
+│
+├── module3/                     # Future Module 3 - Automated Resume Generation 
+│   ├── __init__.py
+│   ├── ...
+│   └── ...
+│   
+├── module4/                     # Future Module 4- Automated job apply online 
+│   ├── __init__.py
+│   ├── ...
+│   └── ...
+│
+├── module5/                     # Future Module 4- Website FrontEnd Portal Creation 
+│   ├── __init__.py
+│   ├── ...
+│   └── ...
+│
+└── config/
+    ├── __init__.py
+    └── settings.py              # Shared configurations like API keys, URLs, etc.
