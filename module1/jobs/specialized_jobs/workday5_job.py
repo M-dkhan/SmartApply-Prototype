@@ -2,12 +2,11 @@ from module1.jobs.base_job import BaseJob
 
 
 class Workday5Job(BaseJob):
-
-    def __init__(self, title, description, location, due_date, serial_number):
-        super().__init__(title, description, location, due_date)
-        self.serial_number = serial_number
+    def __init__(self, title, url, role_type, description, location, due_date, requisitionId):
+        super().__init__(title, url, role_type,  description, location, due_date)
+        self.requisitionId = requisitionId
 
 
     def display(self):
         base_info = super().display()
-        print(f"{base_info} with serial number =  {self.serial_number}")
+        return f"{base_info} with serial number =  {self.requisitionId}"
