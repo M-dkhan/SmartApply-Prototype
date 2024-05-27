@@ -1,5 +1,7 @@
 import re
 from bs4 import BeautifulSoup
+from selenium.common.exceptions import ElementClickInterceptedException
+import time
 
 def extract_numbers(s):
     """
@@ -51,3 +53,16 @@ def extract_attribute(html_content, tag, search_text, attribute):
 
     # Return the attribute value if found, otherwise None
     return element.get(attribute, None) if element else None
+
+
+def safe_click(driver, sleepTime,element):
+        """Attempt to click the element with retries and scroll if needed."""
+        retries = 3
+        for attempt in range(retries):
+            try:
+                element.click()
+                return
+            except ElementClickInterceptedException:
+                # If the click is intercepted, scroll to the element and retry
+                driver.execute_script("arguments[0].scrollIntoView(true);", element)
+                time.sleep(sleepTime)  # Short delay before retrying
