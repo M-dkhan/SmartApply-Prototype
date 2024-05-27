@@ -14,6 +14,7 @@ from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import TimeoutException
 import time
+from module1.jobs.specialized_jobs.amazon_job import AmazonJob
 
 class AmazonScrapper(BaseScraper):
     
@@ -47,6 +48,8 @@ class AmazonScrapper(BaseScraper):
         select_element = WebDriverWait(self.driver, self.sleepTime).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'select[id="j_id0:portId:j_id67:Country"]')))
 
         selected_option = Select(select_element)
+
+        # TODO: Make this dynamic
         selected_option.select_by_value("CA")
 
         # Verify if the option is selected
@@ -68,32 +71,38 @@ class AmazonScrapper(BaseScraper):
         
         try:
             # Wait for the job listings to appear
-            job_listings = WebDriverWait(self.driver, self.sleepTime).until(
-                EC.presence_of_all_elements_located((By.XPATH, '//div[@id="recent-jobs2"]/div[@class="listing row"]'))
-            )
-
             # Print the job listings
-            for job in job_listings:
-                print(job)
-                title_element = job.find_element(By.XPATH, './/h6/a')
+            job_listings = self.driver.find_elements(By.XPATH, '//div[@id="recent-jobs2"]/div[@class="listing row"]')
+            for jobDetail in job_listings:
+                title_element = jobDetail.find_element(By.XPATH, './/h6/a')
                 title = title_element.text
 
+                # Within the context of the current job listing, locate the job ID element
+                job_id_element = jobDetail.find_element(By.XPATH, './/p[contains(text(), "Job ID")]/strong')
+
+                # Extract the Job ID
+                job_id = job_id_element.text
+                print("Job ID:", job_id)
+
                 # Extracting job description
-                description_element = job.find_element(By.XPATH, './/p')
+                description_element = jobDetail.find_element(By.XPATH, './/p')
                 description = description_element.text
 
                 # Extracting job location
-                location_element = job.find_element(By.XPATH, './/h6/span')
+                location_element = jobDetail.find_element(By.XPATH, './/h6/span')
                 location = location_element.text
 
                 # Extracting details page link
                 details_page_link = title_element.get_attribute('href')
+                
 
                 # Print the extracted information
                 print("Title:", title)
                 print("Description:", description)
                 print("Location:", location)
                 print("Details Page Link:", details_page_link)
+                print()
+                print()
 
         except TimeoutException:
             print("No Jobs Found.!!!")
