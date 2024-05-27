@@ -23,7 +23,7 @@ class AmazonScrapper(BaseScraper):
         self.open_url()
         self.jobsList = {}
         self.searchLocation = location
-        self.sleepTime = 20  # Set sleepTime before calling filter_by_location
+        self.sleepTime = 5  # Set sleepTime before calling filter_by_location
         self.filter_by_location("Canada")
 
 
@@ -82,7 +82,6 @@ class AmazonScrapper(BaseScraper):
 
                 # Extract the Job ID
                 job_id = job_id_element.text
-                print("Job ID:", job_id)
 
                 # Extracting job description
                 description_element = jobDetail.find_element(By.XPATH, './/p')
@@ -95,12 +94,10 @@ class AmazonScrapper(BaseScraper):
                 # Extracting details page link
                 details_page_link = title_element.get_attribute('href')
                 
+                job = AmazonJob(title, details_page_link, None, description, location, job_id)
+                print(vars(job))
+                print(type(job))
 
-                # Print the extracted information
-                print("Title:", title)
-                print("Description:", description)
-                print("Location:", location)
-                print("Details Page Link:", details_page_link)
                 print()
                 print()
 
