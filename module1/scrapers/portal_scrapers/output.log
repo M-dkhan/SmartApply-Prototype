@@ -1,716 +1,409 @@
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="5527154d061966787e8f5774c20645a4", element="f.42A824C9E6AA659F71432E937E94CCB7.d.F35B3D018CD62695ACEAB85E731CDED2.e.536")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
+    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
+    from module1.jobs.base_job import BaseJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23
+    query = self.db.collection(self.collectionName).where(field_path=key, op_string=="==", value=value)
+                                                                                                      ^
+SyntaxError: positional argument follows keyword argument
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
+    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
+    from module1.jobs.base_job import BaseJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23
+    query = self.db.collection(self.collectionName).where(field_path=key, value=value, op_string=="==")
+                                                                                                      ^
+SyntaxError: positional argument follows keyword argument
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="01f0e32f6bfe77527cffe54601774e9c", element="f.1AE9893CF8393C113306C841859DE429.d.E35E05930E6CE9AB6E0B11759403A697.e.561")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="c647d11506832301006c961d85309c23", element="f.1D483FC593C0E9371753EA3A7F57D680.d.80544F68782331AED6978522028B1AB8.e.541")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="336d606bfe11cf7cf04023947233053f", element="f.EE76F8043F09EF7FC25FC876F02D2671.d.E2C9DC4B97A68DE7CAFC3FA87B8907EA.e.536")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="3fdb6845af69fa087fa7ffcc68db5682", element="f.63265C1DA67FEEBB4FBFC32BBE0B0FED.d.D42FC71FCF2C0BCE3EC3768265477C9D.e.536")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="ee69bc30a6517255ad8834da16cc464b", element="f.0A24DDF69E735DFE391977EC61A5487B.d.5825EF8B58FEAA6298EA215B56544BC0.e.536")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+error in the base document
+error in the base document
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="bedf7f192a2b482b2ff24b9ddf250a26", element="f.462E15B3123D7E1C439630BF1DE705E6.d.5B55F0097776FB8569ED4AFEA9FB5F39.e.534")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+error in the base document
+error in the base document
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="8696111346497c295805e780ce15fbab", element="f.4957BB4136BD40024F930079455839BB.d.7DC29C755ABD02B8D6859A06FA585848.e.517")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+error in the base document
+error in the base document
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="2d215cfe78cc9a446bc120898d4448ce", element="f.1D40FDD461D3E46F1ECF0B37727A2B5A.d.0F39ADAE3FBFA148DFB85E34D89F9B60.e.517")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+error in the base document
+error in the base document
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="c60074c82e6c54392495c192edc641a4", element="f.38242F15FACF9E94BDF5A755C1EC5D2C.d.15C88B29A71920C09F201BAF5243D82B.e.533")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+error in the base document
+error in the base document
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="65a69450518580f5973f7810482c3084", element="f.19949D282307D03A183AB995DA21C6BF.d.3BCBE49CBEB1CFFB5E4FCAFA09C2E071.e.533")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+error in the base document
+error in the base document
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="8f029e581ea3949833000bcae3b1b573", element="f.43AC149CE4F3394C85117BBF0A7AF9CF.d.0B93EB88D7A57A0734C9463387E0CB77.e.533")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
+    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 14, in __init__
+    if not self.check_document_existence('job_id', job_id):
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23, in check_document_existence
+    query = self.db.collection(self.collectionName).where(filter=key, operator="==", value=value)  # Using keyword arguments for filter
+TypeError: BaseCollectionReference.where() got an unexpected keyword argument 'operator'
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="85822b6edd51d1646498c58416b26a7b", element="f.2ABD0C7B8B6CD923B90EB9EDD22D2E15.d.6AFED3743AC3670A40A01226A8043CC6.e.516")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
+    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 14, in __init__
+    if not self.check_document_existence('job_id', job_id):
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23, in check_document_existence
+    query = self.db.collection(self.collectionName).where(key, "==", value)  # Using positional arguments
+TypeError: BaseCollectionReference.where() got an unexpected keyword argument 'operator'
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="fc2868b6287ae58f676e88698b2996f3", element="f.301FCD10DA8EA7AC4F2945DC0C34ABA9.d.397658F2DE13BCE2BD4CEA4D6CF5A2DD.e.557")>
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 92
-    = 
-IndentationError: unexpected indent
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 92
-    = 
-IndentationError: unexpected indent
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 77
-    for job in :
-               ^
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+The option is selected.
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
+    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 14, in __init__
+    if not self.check_document_existence('job_id', job_id):
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 20, in check_document_existence
+    query = self.db.collection(self.collectionName).filter(key, "==", value)
+AttributeError: 'CollectionReference' object has no attribute 'filter'
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
+    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
+    from module1.jobs.base_job import BaseJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 2, in <module>
+    from module2.twilio_setup import TwilioManager
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 16
+    
+    ^
+IndentationError: expected an indented block after function definition on line 15
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
+    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
+    from module1.jobs.base_job import BaseJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 2, in <module>
+    from module2.twilio_setup import TwilioManager
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 16
+    fromPhoneNumber = 
+                      ^
 SyntaxError: invalid syntax
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="756ae60a572b07f391d7315295f650dc", element="f.6CE66A1D0D52C9109E0921E94E2994F2.d.FA77AC4AFC2CC17466643A8558CADB95.e.536")>
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM1e1b288dc7fcf22ae30bb951659db4e2>
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM1e1b288dc7fcf22ae30bb951659db4e2>
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
 Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 108, in <module>
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
     amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
   File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
     self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 93, in filter_by_location
-    job = AmazonJob(title, details_page_link, )
-TypeError: AmazonJob.__init__() missing 4 required positional arguments: 'role_type', 'description', 'location', and 'job_id'
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 53, in filter_by_location
+    selected_option.select_by_value("CA")
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 79, in select_by_value
+    self._set_selected(opt)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 214, in _set_selected
+    option.click()
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: chrome-headless-shell=124.0.6367.60)
+Stacktrace:
+#0 0x5590d0d2ddc3 <unknown>
+#1 0x5590d0a1c4e7 <unknown>
+#2 0x5590d0a21a9c <unknown>
+#3 0x5590d0a237ef <unknown>
+#4 0x5590d0a2387c <unknown>
+#5 0x5590d0a6b043 <unknown>
+#6 0x5590d0a5c461 <unknown>
+#7 0x5590d0a89452 <unknown>
+#8 0x5590d0a5bb98 <unknown>
+#9 0x5590d0a8961e <unknown>
+#10 0x5590d0aa7c29 <unknown>
+#11 0x5590d0a891f3 <unknown>
+#12 0x5590d0a5a28a <unknown>
+#13 0x5590d0a5ac5e <unknown>
+#14 0x5590d0cf20eb <unknown>
+#15 0x5590d0cf603b <unknown>
+#16 0x5590d0cde201 <unknown>
+#17 0x5590d0cf6ba2 <unknown>
+#18 0x5590d0cc30bf <unknown>
+#19 0x5590d0d1cf18 <unknown>
+#20 0x5590d0d1d0f0 <unknown>
+#21 0x5590d0d2cf14 <unknown>
+#22 0x7f66c3f03ac3 <unknown>
+
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="86d7ba6c814134fc6b5014ebe96ab495", element="f.AD21EB826DEB2C53EB0EA0BFBBA39E63.d.998A15854C5DF9015B9E9CB2DF018309.e.517")>
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMbdeab82560e72e6d58edefa6f77cb8ac>
 Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 108, in <module>
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
     amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
   File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
     self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 93, in filter_by_location
-    job = AmazonJob(title, details_page_link, )
-TypeError: AmazonJob.__init__() missing 4 required positional arguments: 'role_type', 'description', 'location', and 'job_id'
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
+    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 39, in __init__
+    sentwhatsappMessage = self.twilioClient.sendWhatsappMessage(self.twilioClient.fromPhoneNumber,self.twilioClient.toPhoneNumber, job_message_template)
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 34, in sendWhatsappMessage
+    message = self.client.messages.create(
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 564, in create
+    payload = self._version.create(
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 465, in create
+    return self._parse_create(method, uri, response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 436, in _parse_create
+    raise self.exception(method, uri, response, "Unable to create record")
+twilio.base.exceptions.TwilioRestException: HTTP 400 error: Unable to create record: Twilio could not find a Channel with the specified From address
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
 The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="25111ecbfd3ed8a0da8fbf5865df588c", element="f.C0F3B2DD67FE7CD2E82EA10C9D498BEC.d.71242DCD5C2A462DDF6B628E134DFBDE.e.515")>
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMc031bfccb0aea79e60f3e0a5a7c2ce71>
 Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 108, in <module>
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
     amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
   File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
     self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 93, in filter_by_location
-    job = AmazonJob(title, details_page_link, )
-TypeError: AmazonJob.__init__() missing 4 required positional arguments: 'role_type', 'description', 'location', and 'job_id'
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="f91d0b9d0242bc98f125ec8c34bc77a4", element="f.D545C3E0962C93C3535C0067BB874293.d.3A6EDB86D49E42C33FBCDDC0B85448D6.e.517")>
-Job ID: 240112842
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="8c7e8e5aaa449036d5350767059b1576", element="f.C02EEF48CBDF0EB42E0DB51B6310599B.d.26E0A668F9DF2E63E6D851E25A5936C3.e.533")>
-Job ID: 240112842
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="a434c8c0a8341c7ce82d93788524c694", element="f.E22F7CC845020A462DDBE3A9E6D5993A.d.266C3940DFE12E1A18C94EE373267CAE.e.517")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-<selenium.webdriver.remote.webelement.WebElement (session="a434c8c0a8341c7ce82d93788524c694", element="f.E22F7CC845020A462DDBE3A9E6D5993A.d.266C3940DFE12E1A18C94EE373267CAE.e.518")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-<selenium.webdriver.remote.webelement.WebElement (session="a434c8c0a8341c7ce82d93788524c694", element="f.E22F7CC845020A462DDBE3A9E6D5993A.d.266C3940DFE12E1A18C94EE373267CAE.e.519")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-<selenium.webdriver.remote.webelement.WebElement (session="a434c8c0a8341c7ce82d93788524c694", element="f.E22F7CC845020A462DDBE3A9E6D5993A.d.266C3940DFE12E1A18C94EE373267CAE.e.520")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-<selenium.webdriver.remote.webelement.WebElement (session="a434c8c0a8341c7ce82d93788524c694", element="f.E22F7CC845020A462DDBE3A9E6D5993A.d.266C3940DFE12E1A18C94EE373267CAE.e.521")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-<selenium.webdriver.remote.webelement.WebElement (session="a434c8c0a8341c7ce82d93788524c694", element="f.E22F7CC845020A462DDBE3A9E6D5993A.d.266C3940DFE12E1A18C94EE373267CAE.e.522")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="23559685b3a482e02214308ddfb08104", element="f.B354D25FFF82C07AB6764C1595624359.d.DCBCAF31C40C50B0E2648EA719A85074.e.541")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="23559685b3a482e02214308ddfb08104", element="f.B354D25FFF82C07AB6764C1595624359.d.DCBCAF31C40C50B0E2648EA719A85074.e.542")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="23559685b3a482e02214308ddfb08104", element="f.B354D25FFF82C07AB6764C1595624359.d.DCBCAF31C40C50B0E2648EA719A85074.e.543")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="23559685b3a482e02214308ddfb08104", element="f.B354D25FFF82C07AB6764C1595624359.d.DCBCAF31C40C50B0E2648EA719A85074.e.544")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="23559685b3a482e02214308ddfb08104", element="f.B354D25FFF82C07AB6764C1595624359.d.DCBCAF31C40C50B0E2648EA719A85074.e.545")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="23559685b3a482e02214308ddfb08104", element="f.B354D25FFF82C07AB6764C1595624359.d.DCBCAF31C40C50B0E2648EA719A85074.e.546")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="7988cfed85675bfefc6a8f5f806d3682", element="f.7F7249FDA0AF3AC9A0272263678FA169.d.25614544524747EF9ADE78E3CC2DDF85.e.559")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="7988cfed85675bfefc6a8f5f806d3682", element="f.7F7249FDA0AF3AC9A0272263678FA169.d.25614544524747EF9ADE78E3CC2DDF85.e.560")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="7988cfed85675bfefc6a8f5f806d3682", element="f.7F7249FDA0AF3AC9A0272263678FA169.d.25614544524747EF9ADE78E3CC2DDF85.e.561")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="7988cfed85675bfefc6a8f5f806d3682", element="f.7F7249FDA0AF3AC9A0272263678FA169.d.25614544524747EF9ADE78E3CC2DDF85.e.562")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="7988cfed85675bfefc6a8f5f806d3682", element="f.7F7249FDA0AF3AC9A0272263678FA169.d.25614544524747EF9ADE78E3CC2DDF85.e.563")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="7988cfed85675bfefc6a8f5f806d3682", element="f.7F7249FDA0AF3AC9A0272263678FA169.d.25614544524747EF9ADE78E3CC2DDF85.e.564")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="68cc1bc0757351bf65023c708a5eed6b", element="f.CB8DDD3C468F2F7F0AD22109F9C1027C.d.0CA8CEA217812B4F9886C4A91CA5020F.e.517")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="68cc1bc0757351bf65023c708a5eed6b", element="f.CB8DDD3C468F2F7F0AD22109F9C1027C.d.0CA8CEA217812B4F9886C4A91CA5020F.e.518")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="68cc1bc0757351bf65023c708a5eed6b", element="f.CB8DDD3C468F2F7F0AD22109F9C1027C.d.0CA8CEA217812B4F9886C4A91CA5020F.e.519")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="68cc1bc0757351bf65023c708a5eed6b", element="f.CB8DDD3C468F2F7F0AD22109F9C1027C.d.0CA8CEA217812B4F9886C4A91CA5020F.e.520")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="68cc1bc0757351bf65023c708a5eed6b", element="f.CB8DDD3C468F2F7F0AD22109F9C1027C.d.0CA8CEA217812B4F9886C4A91CA5020F.e.521")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="68cc1bc0757351bf65023c708a5eed6b", element="f.CB8DDD3C468F2F7F0AD22109F9C1027C.d.0CA8CEA217812B4F9886C4A91CA5020F.e.522")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="dca13d98e54642800f753b09cdb42afa", element="f.873FA03B20DF127A6986135559E0AB75.d.FBB7779602114F3C0FC44AE04184DAF7.e.518")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dca13d98e54642800f753b09cdb42afa", element="f.873FA03B20DF127A6986135559E0AB75.d.FBB7779602114F3C0FC44AE04184DAF7.e.519")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dca13d98e54642800f753b09cdb42afa", element="f.873FA03B20DF127A6986135559E0AB75.d.FBB7779602114F3C0FC44AE04184DAF7.e.520")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dca13d98e54642800f753b09cdb42afa", element="f.873FA03B20DF127A6986135559E0AB75.d.FBB7779602114F3C0FC44AE04184DAF7.e.521")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dca13d98e54642800f753b09cdb42afa", element="f.873FA03B20DF127A6986135559E0AB75.d.FBB7779602114F3C0FC44AE04184DAF7.e.522")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dca13d98e54642800f753b09cdb42afa", element="f.873FA03B20DF127A6986135559E0AB75.d.FBB7779602114F3C0FC44AE04184DAF7.e.523")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="8495f84360bc9f6c56807020de1ed656", element="f.9A0C0AA7A4C6972E6CECD3D9D6A3193D.d.3247DCFE78E90C4DCA0CD72FABC6A766.e.534")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8495f84360bc9f6c56807020de1ed656", element="f.9A0C0AA7A4C6972E6CECD3D9D6A3193D.d.3247DCFE78E90C4DCA0CD72FABC6A766.e.535")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8495f84360bc9f6c56807020de1ed656", element="f.9A0C0AA7A4C6972E6CECD3D9D6A3193D.d.3247DCFE78E90C4DCA0CD72FABC6A766.e.536")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8495f84360bc9f6c56807020de1ed656", element="f.9A0C0AA7A4C6972E6CECD3D9D6A3193D.d.3247DCFE78E90C4DCA0CD72FABC6A766.e.537")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8495f84360bc9f6c56807020de1ed656", element="f.9A0C0AA7A4C6972E6CECD3D9D6A3193D.d.3247DCFE78E90C4DCA0CD72FABC6A766.e.538")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8495f84360bc9f6c56807020de1ed656", element="f.9A0C0AA7A4C6972E6CECD3D9D6A3193D.d.3247DCFE78E90C4DCA0CD72FABC6A766.e.539")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="8528e4825be0e765382eb3a167dd65f3", element="f.488A88F6D05662E20A97E6420F5814CC.d.1514A8548F2560F2E7B9D825E121498E.e.542")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8528e4825be0e765382eb3a167dd65f3", element="f.488A88F6D05662E20A97E6420F5814CC.d.1514A8548F2560F2E7B9D825E121498E.e.543")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8528e4825be0e765382eb3a167dd65f3", element="f.488A88F6D05662E20A97E6420F5814CC.d.1514A8548F2560F2E7B9D825E121498E.e.544")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8528e4825be0e765382eb3a167dd65f3", element="f.488A88F6D05662E20A97E6420F5814CC.d.1514A8548F2560F2E7B9D825E121498E.e.545")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8528e4825be0e765382eb3a167dd65f3", element="f.488A88F6D05662E20A97E6420F5814CC.d.1514A8548F2560F2E7B9D825E121498E.e.546")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="8528e4825be0e765382eb3a167dd65f3", element="f.488A88F6D05662E20A97E6420F5814CC.d.1514A8548F2560F2E7B9D825E121498E.e.547")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 119
-    def apply_filters(self, keyword=None, location='Canada', date_range=None, time_type=None, sleep_time=20):
-IndentationError: unexpected indent
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="6129a54e596b613bebe313484045f677", element="f.03FFA87BC276898D7663652434877D41.d.B1D469FAA73023670A33D112BC051A88.e.517")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="6129a54e596b613bebe313484045f677", element="f.03FFA87BC276898D7663652434877D41.d.B1D469FAA73023670A33D112BC051A88.e.518")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="6129a54e596b613bebe313484045f677", element="f.03FFA87BC276898D7663652434877D41.d.B1D469FAA73023670A33D112BC051A88.e.519")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="6129a54e596b613bebe313484045f677", element="f.03FFA87BC276898D7663652434877D41.d.B1D469FAA73023670A33D112BC051A88.e.520")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="6129a54e596b613bebe313484045f677", element="f.03FFA87BC276898D7663652434877D41.d.B1D469FAA73023670A33D112BC051A88.e.521")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="6129a54e596b613bebe313484045f677", element="f.03FFA87BC276898D7663652434877D41.d.B1D469FAA73023670A33D112BC051A88.e.522")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-The option is selected.
-<selenium.webdriver.remote.webelement.WebElement (session="dadc55406765b5d9b980ab6c796c44b7", element="f.F89731C5DCFA755DD30264CB466DE276.d.85FE4557990F79BDAA4603983BFA2AD4.e.558")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dadc55406765b5d9b980ab6c796c44b7", element="f.F89731C5DCFA755DD30264CB466DE276.d.85FE4557990F79BDAA4603983BFA2AD4.e.559")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dadc55406765b5d9b980ab6c796c44b7", element="f.F89731C5DCFA755DD30264CB466DE276.d.85FE4557990F79BDAA4603983BFA2AD4.e.560")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dadc55406765b5d9b980ab6c796c44b7", element="f.F89731C5DCFA755DD30264CB466DE276.d.85FE4557990F79BDAA4603983BFA2AD4.e.561")>
-Job ID: 240113466
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dadc55406765b5d9b980ab6c796c44b7", element="f.F89731C5DCFA755DD30264CB466DE276.d.85FE4557990F79BDAA4603983BFA2AD4.e.562")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-<selenium.webdriver.remote.webelement.WebElement (session="dadc55406765b5d9b980ab6c796c44b7", element="f.F89731C5DCFA755DD30264CB466DE276.d.85FE4557990F79BDAA4603983BFA2AD4.e.563")>
-Job ID: 240113466
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 75
-    job_listings = driver.find_elements(By.XPATH, '//div[@id="recent-jobs2"]/div[@class="listing row"]')
-IndentationError: expected an indented block after 'try' statement on line 72
-The option is selected.
-Job ID: 240113466
-Title: Virtual Customer Support Associate - Punjab
-Description: Job ID: 240113466
-Work from home with Amazon Customer Service! Role:Virtual Customer Service Associate Job Type: Contract (seasonal) Location:Work from home in Punjab Role: VirtualCustomer Service Associate Our mission at Amazon is to be Earth’s most customer-centric co... more
-Location: , PB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000TzikbUAB&setlang=en_US
-
-
-Job ID: 240113269
-Title: Virtual Customer Support Associate - Tamil Nadu,India
-Description: Job ID: 240113269
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (TN), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Se... more
-Location: , TN India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi3aUAB&setlang=en_US
-
-
-Job ID: 240113264
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113264
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: Warangal, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2hUAB&setlang=en_US
-
-
-Job ID: 240113263
-Title: Customer Service Associate_Hyderabad,India
-Description: Job ID: 240113263
-Role: Customer Service Associate Job Type: Full Time Location: Hyderabad Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving that goal. Doing our best for our cust... more
-Location: Hyderabad, TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2cUAB&setlang=en_US
-
-
-Job ID: 240113262
-Title: Virtual Customer Support Associate - Telangana,India
-Description: Job ID: 240113262
-Work from home with Amazon Customer Service! Role: Customer Service Associate Job Type: full-time/part-time Location: Work from home in (Hyderabad), India Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Cust... more
-Location: , TS India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000Tzi2XUAR&setlang=en_US
-
-
-Job ID: 240113611
-Title: Virtual Customer Support Associate - West Bengal, India
-Description: Job ID: 240113611
-Role:Virtual Customer Service Associate Job Type:Seasonal (Contractual) Location:Work from home inWest Bengal Our mission at Amazon is to be Earth’s most customer-centric company, and our award-winning Customer Service team is a key part of achieving tha... more
-Location: VCC - West Bengal, WB India
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000UVH5TUAX&setlang=en_US
-
-
-The option is selected.
-Job ID: 240112842
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
-
-
-The option is selected.
-Job ID: 240112842
-Title: Seasonal Warehouse Team Members (Full Time)
-Description: Job ID: 240112842
-Shifts: Overnight, Early Morning, Day, Evening, Weekend Location: Sidney, BC, CA Job opportunities vary by location. We update postings daily with open positions. Hourly pay rate: Earn 21.40 - 21.90 Immediate openings available now. Become part of t... more
-Location: Sidney, BC Canada
-Details Page Link: https://hvr-amazon.my.site.com/JobDetails?reqid=a0R4U00000SBaAfUAL&setlang=en_US
-
-
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
+    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 39, in __init__
+    sentwhatsappMessage = self.twilioClient.sendWhatsappMessage(self.twilioClient.fromPhoneNumber,self.twilioClient.toPhoneNumber, job_message_template)
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 34, in sendWhatsappMessage
+    message = self.client.messages.create(
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 564, in create
+    payload = self._version.create(
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 465, in create
+    return self._parse_create(method, uri, response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 436, in _parse_create
+    raise self.exception(method, uri, response, "Unable to create record")
+twilio.base.exceptions.TwilioRestException: HTTP 400 error: Unable to create record: Twilio could not find a Channel with the specified From address

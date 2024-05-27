@@ -4,12 +4,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from abc import ABC, abstractmethod 
-
+from module2.firebase_setup import FirestoreManager
 class BaseScraper:
 
     def __init__(self, baseUrl):
         self.chrome_options, self.driver = self._configure()
         self.baseUrl = baseUrl
+        self.db = FirestoreManager.db
 
     def open_url(self, url=''):
         fullUrl = f"{self.baseUrl}{url}"
