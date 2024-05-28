@@ -1,244 +1,8 @@
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
-    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
-    from module1.jobs.base_job import BaseJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23
-    query = self.db.collection(self.collectionName).where(field_path=key, op_string=="==", value=value)
-                                                                                                      ^
-SyntaxError: positional argument follows keyword argument
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
-    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
-    from module1.jobs.base_job import BaseJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23
-    query = self.db.collection(self.collectionName).where(field_path=key, value=value, op_string=="==")
-                                                                                                      ^
-SyntaxError: positional argument follows keyword argument
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-error in the base document
-error in the base document
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-error in the base document
-error in the base document
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-error in the base document
-error in the base document
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-error in the base document
-error in the base document
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-error in the base document
-error in the base document
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-error in the base document
-error in the base document
-The option is selected.
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
-    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
-    self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
-    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 14, in __init__
-    if not self.check_document_existence('job_id', job_id):
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23, in check_document_existence
-    query = self.db.collection(self.collectionName).where(filter=key, operator="==", value=value)  # Using keyword arguments for filter
-TypeError: BaseCollectionReference.where() got an unexpected keyword argument 'operator'
-The option is selected.
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
-    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
-    self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
-    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 14, in __init__
-    if not self.check_document_existence('job_id', job_id):
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 23, in check_document_existence
-    query = self.db.collection(self.collectionName).where(key, "==", value)  # Using positional arguments
-TypeError: BaseCollectionReference.where() got an unexpected keyword argument 'operator'
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-The option is selected.
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
-    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
-    self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
-    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 14, in __init__
-    if not self.check_document_existence('job_id', job_id):
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 20, in check_document_existence
-    query = self.db.collection(self.collectionName).filter(key, "==", value)
-AttributeError: 'CollectionReference' object has no attribute 'filter'
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMa5b4d3c2c075632e277c70c06be4b12f>
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMa5b4d3c2c075632e277c70c06be4b12f>
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
@@ -251,159 +15,45 @@ The option is selected.
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
-    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
-    from module1.jobs.base_job import BaseJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 2, in <module>
-    from module2.twilio_setup import TwilioManager
-  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 16
-    
-    ^
-IndentationError: expected an indented block after function definition on line 15
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMc48bbb9f31600295cdfcf37995458cd1>
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMc48bbb9f31600295cdfcf37995458cd1>
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMad55aae09a04de6eb80e067a5a1c64d0>
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMad55aae09a04de6eb80e067a5a1c64d0>
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
-    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
-    from module1.jobs.base_job import BaseJob
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 2, in <module>
-    from module2.twilio_setup import TwilioManager
-  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 16
-    fromPhoneNumber = 
-                      ^
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 73
+    print(option.)
+                 ^
 SyntaxError: invalid syntax
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
+Ontario
 The option is selected.
 /home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
   return query.where(field_path, op_string, value)
 The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
+Ontario
 The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
+[<selenium.webdriver.remote.webelement.WebElement (session="213cd1081d87a97606d2fdaa9a78c473", element="f.CDEBCC8713198967DF1C43370D0E03AE.d.74F4CE1FA65198A4BF3C536CF3454C2D.e.546")>]
 The option is selected.
-<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM1e1b288dc7fcf22ae30bb951659db4e2>
-<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM1e1b288dc7fcf22ae30bb951659db4e2>
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
+Ontario
 The option is selected.
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
-    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
-    self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 53, in filter_by_location
-    selected_option.select_by_value("CA")
-  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 79, in select_by_value
-    self._set_selected(opt)
-  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 214, in _set_selected
-    option.click()
-  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
-    return self._parent.execute(command, params)
-  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
-    self.error_handler.check_response(response)
-  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.JavascriptException: Message: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
-  (Session info: chrome-headless-shell=124.0.6367.60)
-Stacktrace:
-#0 0x5590d0d2ddc3 <unknown>
-#1 0x5590d0a1c4e7 <unknown>
-#2 0x5590d0a21a9c <unknown>
-#3 0x5590d0a237ef <unknown>
-#4 0x5590d0a2387c <unknown>
-#5 0x5590d0a6b043 <unknown>
-#6 0x5590d0a5c461 <unknown>
-#7 0x5590d0a89452 <unknown>
-#8 0x5590d0a5bb98 <unknown>
-#9 0x5590d0a8961e <unknown>
-#10 0x5590d0aa7c29 <unknown>
-#11 0x5590d0a891f3 <unknown>
-#12 0x5590d0a5a28a <unknown>
-#13 0x5590d0a5ac5e <unknown>
-#14 0x5590d0cf20eb <unknown>
-#15 0x5590d0cf603b <unknown>
-#16 0x5590d0cde201 <unknown>
-#17 0x5590d0cf6ba2 <unknown>
-#18 0x5590d0cc30bf <unknown>
-#19 0x5590d0d1cf18 <unknown>
-#20 0x5590d0d1d0f0 <unknown>
-#21 0x5590d0d2cf14 <unknown>
-#22 0x7f66c3f03ac3 <unknown>
-
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
+[]
 The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
+Ontario
 The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMbdeab82560e72e6d58edefa6f77cb8ac>
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
-    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
-    self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
-    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 39, in __init__
-    sentwhatsappMessage = self.twilioClient.sendWhatsappMessage(self.twilioClient.fromPhoneNumber,self.twilioClient.toPhoneNumber, job_message_template)
-  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 34, in sendWhatsappMessage
-    message = self.client.messages.create(
-  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 564, in create
-    payload = self._version.create(
-  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 465, in create
-    return self._parse_create(method, uri, response)
-  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 436, in _parse_create
-    raise self.exception(method, uri, response, "Unable to create record")
-twilio.base.exceptions.TwilioRestException: HTTP 400 error: Unable to create record: Twilio could not find a Channel with the specified From address
-/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
-  return query.where(field_path, op_string, value)
-The option is selected.
-<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SMc031bfccb0aea79e60f3e0a5a7c2ce71>
-Traceback (most recent call last):
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 106, in <module>
-    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
-    self.filter_by_location("Canada")
-  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 97, in filter_by_location
-    job = AmazonJob(title, details_page_link, None, description, location, job_id, collectionName='AmazonJobs')
-  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 39, in __init__
-    sentwhatsappMessage = self.twilioClient.sendWhatsappMessage(self.twilioClient.fromPhoneNumber,self.twilioClient.toPhoneNumber, job_message_template)
-  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 34, in sendWhatsappMessage
-    message = self.client.messages.create(
-  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 564, in create
-    payload = self._version.create(
-  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 465, in create
-    return self._parse_create(method, uri, response)
-  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/version.py", line 436, in _parse_create
-    raise self.exception(method, uri, response, "Unable to create record")
-twilio.base.exceptions.TwilioRestException: HTTP 400 error: Unable to create record: Twilio could not find a Channel with the specified From address
+[]

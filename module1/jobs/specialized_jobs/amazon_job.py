@@ -36,7 +36,7 @@ class AmazonJob(BaseJob):
             
             
             # send a sms on whatsapp for the latest job post 
-            sentwhatsappMessage = self.twilioClient.sendWhatsappMessage(self.twilioClient.fromPhoneNumber,self.twilioClient.toPhoneNumber, job_message_template)
+            # sentwhatsappMessage = self.twilioClient.sendWhatsappMessage(self.twilioClient.fromPhoneNumber,self.twilioClient.toPhoneNumber, job_message_template)
             
             print(sentMessage) 
 

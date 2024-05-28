@@ -58,6 +58,22 @@ class AmazonScrapper(BaseScraper):
             print(f"The option is selected.")
         else:
             print(f"The option is not selected.")
+
+        # get the state input select field 
+        state_select_element = WebDriverWait(self.driver, self.sleepTime).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'select[id="j_id0:portId:j_id67:State"]')))
+
+        selected_option = Select(state_select_element)
+
+        # TODO: Make this dynamic
+        selected_option.select_by_value("ON")
+
+        # Verify if the option is selected
+        option = selected_option.first_selected_option
+        if option.is_selected():
+            print(option.text)
+            print(f"The option is selected.")
+        else:
+            print(f"The option is not selected.")
             
             
         # scrap the filter jobs button
@@ -73,6 +89,7 @@ class AmazonScrapper(BaseScraper):
             # Wait for the job listings to appear
             # Print the job listings
             job_listings = self.driver.find_elements(By.XPATH, '//div[@id="recent-jobs2"]/div[@class="listing row"]')
+            print(job_listings)
             for jobDetail in job_listings:
                 title_element = jobDetail.find_element(By.XPATH, './/h6/a')
                 title = title_element.text
