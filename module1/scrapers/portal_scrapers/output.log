@@ -57,3 +57,951 @@ The option is selected.
 Ontario
 The option is selected.
 []
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 123, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 53, in filter_by_location
+    selected_option.select_by_value("CA")
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 79, in select_by_value
+    self._set_selected(opt)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 214, in _set_selected
+    option.click()
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: chrome-headless-shell=124.0.6367.60)
+Stacktrace:
+#0 0x55e42fef2dc3 <unknown>
+#1 0x55e42fbe14e7 <unknown>
+#2 0x55e42fbe6a9c <unknown>
+#3 0x55e42fbe87ef <unknown>
+#4 0x55e42fbe887c <unknown>
+#5 0x55e42fc30043 <unknown>
+#6 0x55e42fc21461 <unknown>
+#7 0x55e42fc4e452 <unknown>
+#8 0x55e42fc20b98 <unknown>
+#9 0x55e42fc4e61e <unknown>
+#10 0x55e42fc6cc29 <unknown>
+#11 0x55e42fc4e1f3 <unknown>
+#12 0x55e42fc1f28a <unknown>
+#13 0x55e42fc1fc5e <unknown>
+#14 0x55e42feb70eb <unknown>
+#15 0x55e42febb03b <unknown>
+#16 0x55e42fea3201 <unknown>
+#17 0x55e42febbba2 <unknown>
+#18 0x55e42fe880bf <unknown>
+#19 0x55e42fee1f18 <unknown>
+#20 0x55e42fee20f0 <unknown>
+#21 0x55e42fef1f14 <unknown>
+#22 0x7f2f16337ac3 <unknown>
+
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 123, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 53, in filter_by_location
+    selected_option.select_by_value("CA")
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 79, in select_by_value
+    self._set_selected(opt)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 214, in _set_selected
+    option.click()
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: chrome-headless-shell=124.0.6367.60)
+Stacktrace:
+#0 0x5582b4ba6dc3 <unknown>
+#1 0x5582b48954e7 <unknown>
+#2 0x5582b489aa9c <unknown>
+#3 0x5582b489c7ef <unknown>
+#4 0x5582b489c87c <unknown>
+#5 0x5582b48e4043 <unknown>
+#6 0x5582b48d5461 <unknown>
+#7 0x5582b4902452 <unknown>
+#8 0x5582b48d4b98 <unknown>
+#9 0x5582b490261e <unknown>
+#10 0x5582b4920c29 <unknown>
+#11 0x5582b49021f3 <unknown>
+#12 0x5582b48d328a <unknown>
+#13 0x5582b48d3c5e <unknown>
+#14 0x5582b4b6b0eb <unknown>
+#15 0x5582b4b6f03b <unknown>
+#16 0x5582b4b57201 <unknown>
+#17 0x5582b4b6fba2 <unknown>
+#18 0x5582b4b3c0bf <unknown>
+#19 0x5582b4b95f18 <unknown>
+#20 0x5582b4b960f0 <unknown>
+#21 0x5582b4ba5f14 <unknown>
+#22 0x7f7cc332dac3 <unknown>
+
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 123, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 53, in filter_by_location
+    selected_option.select_by_value("CA")
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 79, in select_by_value
+    self._set_selected(opt)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 214, in _set_selected
+    option.click()
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: chrome-headless-shell=124.0.6367.60)
+Stacktrace:
+#0 0x55b3dced7dc3 <unknown>
+#1 0x55b3dcbc64e7 <unknown>
+#2 0x55b3dcbcba9c <unknown>
+#3 0x55b3dcbcd7ef <unknown>
+#4 0x55b3dcbcd87c <unknown>
+#5 0x55b3dcc15043 <unknown>
+#6 0x55b3dcc06461 <unknown>
+#7 0x55b3dcc33452 <unknown>
+#8 0x55b3dcc05b98 <unknown>
+#9 0x55b3dcc3361e <unknown>
+#10 0x55b3dcc51c29 <unknown>
+#11 0x55b3dcc331f3 <unknown>
+#12 0x55b3dcc0428a <unknown>
+#13 0x55b3dcc04c5e <unknown>
+#14 0x55b3dce9c0eb <unknown>
+#15 0x55b3dcea003b <unknown>
+#16 0x55b3dce88201 <unknown>
+#17 0x55b3dcea0ba2 <unknown>
+#18 0x55b3dce6d0bf <unknown>
+#19 0x55b3dcec6f18 <unknown>
+#20 0x55b3dcec70f0 <unknown>
+#21 0x55b3dced6f14 <unknown>
+#22 0x7f653064dac3 <unknown>
+
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7be9e607e9a60a7910ca87182350443f", element="f.EE888832BC946ADDBE272A8195A7BBBF.d.88BA400AFB50912DC7DA5FE513E39B5A.e.547")>]
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM31d8ab860f142165993ce85a40854473>
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM31d8ab860f142165993ce85a40854473>
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 123, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 53, in filter_by_location
+    selected_option.select_by_value("CA")
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 79, in select_by_value
+    self._set_selected(opt)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 214, in _set_selected
+    option.click()
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: chrome-headless-shell=124.0.6367.60)
+Stacktrace:
+#0 0x5592cbb94dc3 <unknown>
+#1 0x5592cb8834e7 <unknown>
+#2 0x5592cb888a9c <unknown>
+#3 0x5592cb88a7ef <unknown>
+#4 0x5592cb88a87c <unknown>
+#5 0x5592cb8d2043 <unknown>
+#6 0x5592cb8c3461 <unknown>
+#7 0x5592cb8f0452 <unknown>
+#8 0x5592cb8c2b98 <unknown>
+#9 0x5592cb8f061e <unknown>
+#10 0x5592cb90ec29 <unknown>
+#11 0x5592cb8f01f3 <unknown>
+#12 0x5592cb8c128a <unknown>
+#13 0x5592cb8c1c5e <unknown>
+#14 0x5592cbb590eb <unknown>
+#15 0x5592cbb5d03b <unknown>
+#16 0x5592cbb45201 <unknown>
+#17 0x5592cbb5dba2 <unknown>
+#18 0x5592cbb2a0bf <unknown>
+#19 0x5592cbb83f18 <unknown>
+#20 0x5592cbb840f0 <unknown>
+#21 0x5592cbb93f14 <unknown>
+#22 0x7ff661497ac3 <unknown>
+
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="25227d1462e64167043e345f5ae8d526", element="f.8417610961235A3B80C7E2DF4CE25E01.d.6EB04027035B6F973277D318AFC0DBEE.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="0406a7f7a7dbf5d6c01c9890cb191e12", element="f.5C9999A09525FF566C8D1AED1390DC9E.d.194C674C6D165130AE0290DF0E6BC4A4.e.564")>]
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 123, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 53, in filter_by_location
+    selected_option.select_by_value("CA")
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 79, in select_by_value
+    self._set_selected(opt)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/support/select.py", line 214, in _set_selected
+    option.click()
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: chrome-headless-shell=124.0.6367.60)
+Stacktrace:
+#0 0x55fae3586dc3 <unknown>
+#1 0x55fae32754e7 <unknown>
+#2 0x55fae327aa9c <unknown>
+#3 0x55fae327c7ef <unknown>
+#4 0x55fae327c87c <unknown>
+#5 0x55fae32c4043 <unknown>
+#6 0x55fae32b5461 <unknown>
+#7 0x55fae32e2452 <unknown>
+#8 0x55fae32b4b98 <unknown>
+#9 0x55fae32e261e <unknown>
+#10 0x55fae3300c29 <unknown>
+#11 0x55fae32e21f3 <unknown>
+#12 0x55fae32b328a <unknown>
+#13 0x55fae32b3c5e <unknown>
+#14 0x55fae354b0eb <unknown>
+#15 0x55fae354f03b <unknown>
+#16 0x55fae3537201 <unknown>
+#17 0x55fae354fba2 <unknown>
+#18 0x55fae351c0bf <unknown>
+#19 0x55fae3575f18 <unknown>
+#20 0x55fae35760f0 <unknown>
+#21 0x55fae3585f14 <unknown>
+#22 0x7f8901c98ac3 <unknown>
+
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="01f5589d2719844276e25e0990e14499", element="f.B70088E1944B88264F64263E14601694.d.6B92C06EF1CA0B36AF0A477881F7143F.e.547")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="b876f0ef68ec23ee377deb5fc8c608ec", element="f.62E7184FD36A3DEB797B6DBC89AE7D3B.d.F3D29DC0747003047E7526EC7705ED56.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="3752929e1be8ba222f2fdef3ce94b768", element="f.0C68491BAB20B4E1FC677CD7BF717AA2.d.0BE84B82C6043B01D85F41AE71D7DD94.e.547")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="8ece476a718ad56f18f17578108933b6", element="f.5997CD6A7F396E58E30393DC8377BF00.d.361142CA79E3A9140750F5B9144FA6A7.e.547")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="53f7aff2626f443ff8b9bf80629ba58d", element="f.BFB9C6831EAE80654B332D61BEFCC5C8.d.43C9ED911FD3E96BD5D95F93CDE5333B.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="1a1f795033443377e6e32ea4c85ae6fe", element="f.7D663F154033CDD8E0E63DC3A0C7DB06.d.EE42615C013B5C012F29C6F97ADDFE1D.e.547")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="628070c0484b679ca31d21d75cbe6d2c", element="f.ECD17EA14B2120183B3AC3CC062F17AE.d.86023BB357A9EDBABE4142DF5A5214C9.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="26a80bd1b8f57a2739a868ec8c499e9d", element="f.6EA147C2A158B4061314FE93858954FA.d.1F61586FDBBF60B806FC9231BDD85E52.e.566")>]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 123, in <module>
+    amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 27, in __init__
+    self.filter_by_location("Canada")
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 84, in filter_by_location
+    filterJobsBtn.click()
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome-headless-shell=124.0.6367.60)
+Stacktrace:
+#0 0x56537257ddc3 <unknown>
+#1 0x56537226c4e7 <unknown>
+#2 0x5653722543bd <unknown>
+#3 0x5653722540d3 <unknown>
+#4 0x56537225205c <unknown>
+#5 0x5653722526ef <unknown>
+#6 0x565372262c81 <unknown>
+#7 0x56537227826e <unknown>
+#8 0x56537227d87b <unknown>
+#9 0x565372252e32 <unknown>
+#10 0x565372277fe5 <unknown>
+#11 0x5653722f7f83 <unknown>
+#12 0x5653722d91f3 <unknown>
+#13 0x5653722aa28a <unknown>
+#14 0x5653722aac5e <unknown>
+#15 0x5653725420eb <unknown>
+#16 0x56537254603b <unknown>
+#17 0x56537252e201 <unknown>
+#18 0x565372546ba2 <unknown>
+#19 0x5653725130bf <unknown>
+#20 0x56537256cf18 <unknown>
+#21 0x56537256d0f0 <unknown>
+#22 0x56537257cf14 <unknown>
+#23 0x7f2a17542ac3 <unknown>
+
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+The option is selected.
+Ontario
+The option is selected.
+[]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="3f720f276c84ea3bba963e3ce4a8c6de", element="f.BE388C562905CB2404E7777F9C135F04.d.82637D93CDF2BA5AF85B1A543D83B07B.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="5c2421eb4b1f41a476840242236c1521", element="f.5E69C5829CA0B6991C816DF1F3C032C0.d.7510564DF4966208BC90286E63DBD4D1.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="b0bca87ec94e5c9419587a71c46f122a", element="f.2C4C43E8D35EA62DE3119869017F3751.d.8587BBAAB34C8AD7E8A04E3B247BEDF6.e.566")>]
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM5908895c91d4fa8072bb758b012802b9>
+<Twilio.Api.V2010.MessageInstance account_sid=AC549514f9d1574729217ebe49d25e0534 sid=SM5908895c91d4fa8072bb758b012802b9>
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="5936a04779d0bf781313a4fa6e0a1b2f", element="f.58755989A8AB9C3C3878FEC044529BD4.d.16A39E34CBC3C0EAF6F5ABF190F0A60E.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="c17498a4fdddc740c4404eaa996af98f", element="f.540211EB858191E5763FCC00B66C216F.d.1F8FBA12A213AE97ACFCCB1B43C1742B.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="6cc0d40bc3b47b2565773322a1eaed5f", element="f.7CCCF0A5263A8CAE4E6A3119E9A60F6D.d.5A1B529180395ACB8B8F8A0CAB23E3E9.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="e948d20373a4572ce8c24df44b8ec914", element="f.ABA6E30B40EA3D2A6C0B8F2A292D4C52.d.056FEEC4432BF0A057D6E23D1A52617F.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="ef20ebd3065f28d9678121433406f31f", element="f.AD93EE595F99F444FCE505B61D8F65B8.d.3F728FBF1909A3626ED1C37D3777CEEF.e.565")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="02e4c9d7633315ca73c8a50db7a19403", element="f.BE710F951A4931E3F22B263D68F20D90.d.3A4706135C291D03A18C757A14198152.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="8685b8314395ced790308e87e4e3da7d", element="f.AAB0AFEF511C14D0B6DE78F007B83CFB.d.76808909FBDA0E3B5A0E2F7D0C06CE64.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="9c953e5382b1608d650dc5b878cee060", element="f.AAF438273D4090FD56A4EADC4B0147B0.d.ED10FE85593056553D5702A9EE591ED1.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="e9dbbf420e8492d633d57fd71bd456ba", element="f.39D979400B3D770C4086F23954EE1F59.d.35454CB7B0373CD8B03B634A3BB04000.e.565")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="bef0da191e240fd9439a9b1185fc7f8a", element="f.28BABF8A5618035E68A7DF5430AEC972.d.9FCA9E2D3A78753DB68BBAEAD77CAD73.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="c736e9f84e9f645cde2b0ff3406aab2c", element="f.8672849C7346C25BF0D20397231CAF58.d.532B61B24B15B978551F317769C15203.e.591")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="b298c3848974273aea640bda5550690f", element="f.87B3B1EC21D52F0C1620AFCEB7C69B5D.d.40E69CCF7DEC33E659F17F4CAA258468.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="8e11ccb799f1336d1fa86f5e0c5963af", element="f.4F5A641EB2677702B8CC35C5AD05AE3F.d.F86F1C7EA864065332910E2DB008C12B.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7bd05678d0f16749e10a2a81930daa43", element="f.54FAB4DDD1ED06FC4B08BBEDF2D1D5DD.d.2A2B65E1A335860A7542B9C22C6FA87F.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7adfda549b27b694452de32fc1388bf9", element="f.C8085982D785F2227D2573BEC778056E.d.C00C5C042B5E8E716E4A6BFBA1DCAE34.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="a37f0ff1fd2ee5c98aa199839ca47178", element="f.6B4012B2B202950322BD0298BD924579.d.AEB1A394BDDFA735BED1D7B6C4804AE9.e.585")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="abde45dabb4f085cc141fcec12bf9b2a", element="f.74536AF6A2B1792F117A1E4FC3C4D88C.d.182F421B418C4D7BD3F2B5616F932B65.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="69a37bba20e8a9ca73a1b7ae594a830c", element="f.A15C045F8664EF97861AA149221B1988.d.CD90B995D0578A9E33941B58B323F154.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="f3ad25b00778b0f712fd6c5985722ee4", element="f.D567D8F71CBE5A2B8781019233BFAFB7.d.2A7FEB30F72F16AFD86D5727E37F5A59.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="b3dda6c34b468c673648c7ecb30665de", element="f.B45E2E6F3A999824F77AE20098F8EF5E.d.F65288D513E6E0C694764B6E11380C9A.e.589")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="25e30d2ce6bdea3d84e9538adc7b512b", element="f.FF2BF0BB2CB29D0CEC948CC6F90BC575.d.746B4DCEDF94A5337BB06D5089FD92CF.e.589")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="67e0ac0065b94f862b3ebf4c5fb57832", element="f.BAA64CBA813FA8E9E558279F7270D050.d.8DD2B091034354A48D383A98B1EBCD92.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="255d689465c2750772d48dde9b641831", element="f.EDFE97565C985E63725D29AF1E0896A6.d.E90CE93F2B2F83FB5B2D2541AAEF72E1.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="2f4454b4fe8f154b7990923713b76454", element="f.E44AFF7D0837E6C04F9578C5F917C1B0.d.8F49B9850754476D7EEB8185E1F208EF.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="92e662229ef1c9847e71e2ac65089150", element="f.4FE2F5B242CC5714721658F3985D3D7E.d.BB957831538C395EA56FB4A91F6093CD.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7a643b3d85c2128f1c1d8018ad8843a2", element="f.DA58BCD46A7A90BD98414DA9C3320D42.d.E6FFE4C9943F47B69721784EABD7160A.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="8cd3bfbb2575fd6abdfe00a185a0690b", element="f.EDAE6CA84B51DF994058614E7775C003.d.5E4F599B225F979BD1D4040AE6BB31F8.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="247e55a1e3ea3a6ecb74dfcffcc416cf", element="f.4F1572C7295B4B51C7EC62D20EF81A1B.d.6308B0D9576F0D883F1730DD5AC52DE4.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="c4847dc389f8bcc1f85ecb5cadd030cc", element="f.431E2C1B3A7BD642E5C72AE7C22B082C.d.63EC62B64807E3A2FF4ACC5CC55764E1.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="da4e823496e14167cbc2895177606d20", element="f.9F57AE269BDB799357E67E9C68A5FB19.d.B2EF10A5C2082FF6E5768BA6756B8554.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="e2f1e9145859f26b70d57b5feeb5b4fb", element="f.FFDD975C8C1A2D1826A6C0B982A8AB99.d.CE57254817E5488844323157A396FA82.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="05d688d6f6d8c718c13e9f79b10ab3c4", element="f.96AF5519D2A55CE980906E4DCE4D44DA.d.60823DAAFE210957850EEA06A9C6E2CE.e.565")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="009e9d99b13f76f0e36d538dc7572fdf", element="f.9CF1FC0D4A0B7D3E1B562DE15A321441.d.B6CA8CD1ECEEF8D00CD4A28CE89BAEA4.e.567")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="f91d27bfbdd600535eb332b4d1e4b0fc", element="f.85F719FF0AF497A0638CCFF6D430134D.d.6114431D68EB9E80957F05D1A8B5B095.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="835c2de1da32e106edcec42339a9309c", element="f.D36B41BB124E09240C7D17BA53947ED6.d.636E2FFF7A13A39A24C9E8194053BF77.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="ec2dd1f983fbc5618d8f735aeda67d6f", element="f.819C080CD14A173BC3B867CEF3C93F58.d.CF6A9408AF074887B861D637F7FCE07C.e.589")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="fdd7fccb2c5b5ef53bf660d94192bb97", element="f.ECC7A7E531F263B29FEAE4DB2A4CBEBA.d.2987D57E20A8F1DFA361F52402F5E198.e.547")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="79b27f08770b1ca879ac7012a577d9ae", element="f.9D59DE6613FC514DCC1A696613CE69FD.d.C48A2D269FFEAF62574841C233E883E6.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="0745ab347e4320008db4d1b3748a3e04", element="f.BD82DB17B381441E39114A415571F76F.d.F4BE2CF67C9BC2E7BB0AF08CB86CEB51.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7282a12e539a0da6558c3a995084a01c", element="f.81127E58E9EEB79ADC47734699FEE057.d.27541FEE7BB27DA962CC85A344B90021.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7691acc6c5da1a5ef48970d7d496ce5d", element="f.02213C21D17D6867DCAD96E0F687ED47.d.40582C60875D5EC87941EC1656D95A8F.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="bc1332aa3aa1ab93373c69774b80ff47", element="f.02035F7B059647411635EF54F8D00236.d.ECA8C42B4F190E37405373FA1010348D.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7ac3d57d25afc2b7600b873649f9c3e0", element="f.811A085A681CEABB0A51E720A0817FBC.d.90EC9F997CFB3F27ECED83E4CDAC8D87.e.570")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="cab487fa33de0adb19ec4be21eb813c1", element="f.A349BB1E4D127EB57582BDEE5450A2CE.d.E076BFC3B3CD19AD83048AFC2233B4E6.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="2b786ffb5bc3c4d11d39c77c0dabfdab", element="f.41C0880088FF2EF499A5866E7BE64A4D.d.E31A12A8C4264005F263FF0FCE37C7F2.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7c4b3c2eb4de111d0bbc19c319cad6e1", element="f.FDC6C094FF061A32B13738BC5008DBC0.d.1792338DDFACF24FFDF9F2B9CC0364E7.e.565")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="5d8857ca83e32a48243186eb07123158", element="f.B58ED718C55D749A1AE15269B26FBE7D.d.5B66055FCEA2B24E99F51B0812D8DA49.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="421a2ddfe10ca59d4c204a0ea4efd13a", element="f.8896BA612E6938182FCC4DA60E1D5FB5.d.119FEE36E72F8EF9B74F13E5CF77AA01.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="05227db9e206ddd744485e399230f005", element="f.C6876AF7D58B3E75EF32DD6912FD204C.d.5650F88808E80CA33EEF13F9F8FC8599.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="ba60fedf38ecbb902cafb155fbba3b69", element="f.EC90742D888BB46F7125D3C2BF536CB5.d.F900079AE3240292D212DDC21C5D775B.e.591")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="d06df37bee8f7b5c5f87e64ae430bb2d", element="f.E72A5094628DB2A677C09E174057530A.d.7E8D41A4C796CE717CD832A887D34209.e.567")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="015a88969474a45e24a2919b100d021d", element="f.FA4CF096EB94147F1DF505564DB6FADE.d.5D93A936A4E20B45296A8131099C5EA0.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="7d3ddd54f0608c60e558b2bf0e1a97e2", element="f.34A98C167CD26B584B05D9C3A420C470.d.1FFC83B6E6B496FA98595C6BBC189DC5.e.568")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="03e828ed3d77b93494748f2dd14be02d", element="f.53F9E81D4B07D0E56CFF7BA18F4EDC82.d.46BBA30D97F6FF40C80CED033B263F57.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="eb46c0f3f94a09b1843504dac317544c", element="f.9E277DB9E117E72D01F9656194C453FF.d.7E4FD9D52E1A4E1DF8A21733E42085EE.e.589")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="a4c6ad1087af5ef03a1a1e51569577a4", element="f.9BB0C7B41B021E1E0BD24E2D5A0128DA.d.B7F12650D90A271AB4A33346A8AF6955.e.592")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="4182140b6b1db319800f7ca392471235", element="f.4B3C78A8B4D897B5BBDB15CB040C0521.d.D83A95A95B3419CCF1E8CFC1EAEC25CE.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="8ffb184cb468fcc0433cda9cbc0da441", element="f.A3DA8C55BFAAB7684EB803F79B146829.d.0C59A48D9119CF795589F1E136865F4F.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="864cb9c2a6e8f6340065dbe772cb7a20", element="f.8BBEC90AD192B0A2316E0727F693ADF8.d.F0E9C30C4875CB5FB544E1B518A7B0E5.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="35bb7fc44e774e379f2084d2a589ea10", element="f.B5E53989B5296537B7DB8EB99A102B7E.d.EF3FA0D65656CE1893F1919CDAAED326.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="60ba1c8d6fab1e50a2b223df586f057d", element="f.0E759D144D713088783927592F05F65F.d.10229104394793E2F6C9C0F475615D10.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="baba64fdba79bd33f9c3db2b3b90efd9", element="f.4541A0AAF6581B75D819460EFF208A68.d.A658ADC80A0C536EBBC3B93312734914.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="bc75c8251434466854fe920e10647278", element="f.7A58F2BAA200236DCBB1F1C2E59CB41C.d.F6D6BE71CBFC50A9F3880BF2E19D3E04.e.563")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="91f1e7f14bd99142b6308c2c45a1d0d6", element="f.055D5627CBC935B45592BCD7C3C8A66F.d.54E0EBE995AFAC3DE240BE9DDDB98899.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="2ba441657c9ff4f900038fccfdb9bae3", element="f.BAEE7272BDAA3EF23BD45DCBA6C5636A.d.8C0ABCCCC15EE969A068A5C52D6C5FFE.e.566")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="bcd532ad1343db30f7634ce5b2329a19", element="f.2A607D6D1663123D724F16FF907BC773.d.D849A3BCCE63A3AEAB8F3969D3835DCF.e.564")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="deeb9d94a57748b107feaab3ecfc4a9a", element="f.069B537864906C3998CDCB8CB8198A9B.d.977499FC46E3D9377B893A73AA5313EC.e.567")>]
+/home/zaid/.local/lib/python3.10/site-packages/google/cloud/firestore_v1/base_collection.py:302: UserWarning: Detected filter using positional arguments. Prefer using the 'filter' keyword argument instead.
+  return query.where(field_path, op_string, value)
+The option is selected.
+Ontario
+The option is selected.
+[<selenium.webdriver.remote.webelement.WebElement (session="2428e36db4b91a9b9662ee4d28179495", element="f.5DB4808FF374E5845D7C98BBA90DA505.d.ED6FCA9F3860D3464F6ADB7DE2FBFE78.e.565")>]
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
+    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
+    from module1.jobs.base_job import BaseJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 2, in <module>
+    from module2.twilio_setup import TwilioManager
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 12, in <module>
+    class TwilioManager:
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 20, in TwilioManager
+    client = Client(account_sid, auth_token)
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/rest/__init__.py", line 112, in __init__
+    super().__init__(
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/client_base.py", line 53, in __init__
+    raise TwilioException("Credentials are required to create a TwilioClient")
+twilio.base.exceptions.TwilioException: Credentials are required to create a TwilioClient
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
+    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
+    from module1.jobs.base_job import BaseJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 2, in <module>
+    from module2.twilio_setup import TwilioManager
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 12, in <module>
+    class TwilioManager:
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 20, in TwilioManager
+    client = Client(account_sid, auth_token)
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/rest/__init__.py", line 112, in __init__
+    super().__init__(
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/client_base.py", line 53, in __init__
+    raise TwilioException("Credentials are required to create a TwilioClient")
+twilio.base.exceptions.TwilioException: Credentials are required to create a TwilioClient
+Traceback (most recent call last):
+  File "/home/zaid/SmartApply-Prototype/module1/scrapers/portal_scrapers/amazon.py", line 17, in <module>
+    from module1.jobs.specialized_jobs.amazon_job import AmazonJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/specialized_jobs/amazon_job.py", line 1, in <module>
+    from module1.jobs.base_job import BaseJob
+  File "/home/zaid/SmartApply-Prototype/module1/jobs/base_job.py", line 2, in <module>
+    from module2.twilio_setup import TwilioManager
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 12, in <module>
+    class TwilioManager:
+  File "/home/zaid/SmartApply-Prototype/module2/twilio_setup.py", line 20, in TwilioManager
+    client = Client(account_sid, auth_token)
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/rest/__init__.py", line 112, in __init__
+    super().__init__(
+  File "/home/zaid/.local/lib/python3.10/site-packages/twilio/base/client_base.py", line 53, in __init__
+    raise TwilioException("Credentials are required to create a TwilioClient")
+twilio.base.exceptions.TwilioException: Credentials are required to create a TwilioClient
