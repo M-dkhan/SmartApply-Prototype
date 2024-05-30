@@ -1,5 +1,7 @@
 from module2.firebase_setup import FirestoreManager
 from module2.twilio_setup import TwilioManager
+from datetime import datetime
+
 class BaseJob:
     def __init__(self, title, url, role_type, description, location, due_date, collectionName):
         self.title = title
@@ -11,6 +13,7 @@ class BaseJob:
         self.db = FirestoreManager.db
         self.twilioClient = TwilioManager()
         self.collectionName = collectionName
+        self.createdOn = datetime.now()
 
 
     def display(self):

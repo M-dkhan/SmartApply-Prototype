@@ -18,7 +18,8 @@ class AmazonJob(BaseJob):
                 'description': description,
                 'location': location,
                 'job_id': job_id,
-                'due_date': due_date
+                'due_date': due_date,
+                'timestamp': self.createdOn
             })
 
             # send a message whenever there is a new job posting
