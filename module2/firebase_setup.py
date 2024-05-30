@@ -7,7 +7,8 @@ class FirestoreManager:
     parent_dir = os.path.dirname(os.getcwd())
     
     # Construct the path to the JSON file in the parent directory
-    json_file_path = os.path.join(parent_dir, "testproject.json")
+    json_file_path = os.path.join(parent_dir, "SmartApply-Prototype/testproject.json")
+    print(parent_dir)
 
     # Initialize Firebase Admin SDK and Firestore client
     cred = credentials.Certificate(json_file_path)
