@@ -24,7 +24,7 @@ class AmazonScrapper(BaseScraper):
         self.jobsList = {}
         self.searchLocation = location
         self.sleepTime = 2  # Set sleepTime before calling filter_by_location
-        self.filter_by_location("Canada")
+        self.filter_by_location(self.searchLocation)
 
 
     def scrape(self):
@@ -34,6 +34,8 @@ class AmazonScrapper(BaseScraper):
         pass
 
     def filter_by_location(self, location):
+        country = location.get('country')
+        state = location.get('state')
         
         # click on the search button to collapse the window 
         search_btn = WebDriverWait(self.driver, self.sleepTime).until(
@@ -50,7 +52,7 @@ class AmazonScrapper(BaseScraper):
         selected_option = Select(select_element)
 
         # TODO: Make this dynamic
-        selected_option.select_by_value("CA")
+        selected_option.select_by_value(country)
 
         # Verify if the option is selected
         option = selected_option.first_selected_option
@@ -65,7 +67,7 @@ class AmazonScrapper(BaseScraper):
         selected_option = Select(state_select_element)
 
         # TODO: Make this dynamic
-        selected_option.select_by_value("ON")
+        selected_option.select_by_value(state)
 
         # Verify if the option is selected
         option = selected_option.first_selected_option
@@ -120,4 +122,4 @@ class AmazonScrapper(BaseScraper):
     def apply_filters(self, keyword=None, location='Canada', date_range=None, time_type=None, sleep_time=20):
         return super().apply_filters(keyword, location, date_range, time_type, sleep_time)
 
-amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location='', timeType='Part Time')
+amazon = AmazonScrapper(baseUrl="https://hvr-amazon.my.site.com", jobSearchKeyword='', location={'country': 'IN', 'state': 'PB'}, timeType='Part Time')
