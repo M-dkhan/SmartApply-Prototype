@@ -1,4 +1,4 @@
-from module1.jobs.base_job import BaseJob
+from .base_job import BaseJob
 import firebase_admin
 from firebase_admin import credentials, firestore
 from twilio.rest import Client

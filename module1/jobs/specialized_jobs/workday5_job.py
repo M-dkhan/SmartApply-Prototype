@@ -1,4 +1,4 @@
-from module1.jobs.base_job import BaseJob
+from .base_job import BaseJob
 
 
 class Workday5Job(BaseJob):

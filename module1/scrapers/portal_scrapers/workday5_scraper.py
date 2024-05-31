@@ -1,4 +1,4 @@
-from module1.scrapers.base_scraper import BaseScraper
+from .base_scraper import BaseScraper
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
