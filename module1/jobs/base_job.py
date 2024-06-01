@@ -1,3 +1,4 @@
+from abc import abstractmethod
 from module2.firebase_setup import FirestoreManager
 from module2.twilio_setup import TwilioManager
 from datetime import datetime
@@ -15,6 +16,10 @@ class BaseJob:
         self.collectionName = collectionName
         self.createdOn = datetime.now()
 
+
+    @abstractmethod
+    def __str__(self) -> str:
+        pass
 
     def display(self):
         print(f"{self.title} at {self.location} is due by {self.due_date}")
