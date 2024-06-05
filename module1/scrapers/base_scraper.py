@@ -1,3 +1,4 @@
+from lib2to3.pgen2 import driver
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,8 +11,8 @@ import time
 start_time = time.time()
 
 class BaseScraper(ABC):
-    def __init__(self, base_url: str):
-        self.driver = self._configure_driver()
+    def __init__(self, base_url: str, driver: str):
+        self.driver = driver
         self.base_url = base_url
         self.db = FirestoreManager.db
 
@@ -33,15 +34,7 @@ class BaseScraper(ABC):
         """
         pass
 
-    def _configure_driver(self):
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("--headless")  # To run Chrome in headless mode
-        chrome_options.add_argument("--disable-gpu")  # Disable GPU hardware acceleration
-        chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
-        chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
-        chrome_options.add_argument("--start-maximized")  # Start browser maximized to avoid dynamic content loading issues
-        return webdriver.Chrome(options=chrome_options)
-
+    
     
     def filter_by_keyword(self, keyword: str):
         """

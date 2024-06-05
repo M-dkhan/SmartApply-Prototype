@@ -1,6 +1,5 @@
 from abc import abstractmethod
 from module2.firebase_setup import FirestoreManager
-from module2.twilio_setup import TwilioManager
 from datetime import datetime
 
 class BaseJob:
@@ -12,7 +11,6 @@ class BaseJob:
         self.location = location
         self.due_date = due_date
         self.db = FirestoreManager.db
-        self.twilioClient = TwilioManager()
         self.collectionName = collectionName
         self.createdOn = datetime.now()
 

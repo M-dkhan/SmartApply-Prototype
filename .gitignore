@@ -97,3 +97,15 @@ module5/__pycache__/
 
 # Add any additional ignores specific to your setup here
 
+Oauth-client.json
+service_account_credentials.json
+credentials.json
+
+.env
+module1/jobs/__pycache__/base_job.cpython-310.pyc
+module1/jobs/specialized_jobs/__pycache__/amazon_job.cpython-310.pyc
+module1/scrapers/__pycache__/base_scraper.cpython-310.pyc
+module1/scrapers/portal_scrapers/amazon.py
+module1/scrapers/portal_scrapers/output.log
+module2/__pycache__/firebase_setup.cpython-310.pyc
+module2/__pycache__/twilio_setup.cpython-310.pyc
